@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://bbb123444.github.io/h/eeee.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <title>离校二维码</title>
+    <script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        body {
+            background-color: #f3f3f3;
+        }
+
+        .time {
+            width: 320px;
+            height: 410px;
+            margin: 0 auto;
+            border: 1px solid #f3f3f3;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+        }
+
+        .but {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .p {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .gz {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 20px;
+
+        }
+
+        ul {
+            list-style: none;
+            width: 300px;
+            height: 210px;
+            margin: 30px 50px 0;
+        }
+
+        ul li {
+            width: 150px;
+            float: left;
+        }
+
+        p {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+
+        .gre {
+            color: rgb(72, 226, 51);
+            font-size: 23px;
+            margin-left: -43px;
+        }
+        .degree{
+            color: red;
+            font-size: 23px;
+            margin-left: -43px;
+
+        }
+
+        .time-left {
+            margin-left: -48px;
+        }
+
+        .box {
+            width: 102px;
+            height: 102px;
+            margin-top: 24px;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+        }
+
+        span {
+            font-size: 18px;
+            font-weight: 700;
+            margin-left: 145px;
+        }
+
+        .timer {
+            margin-top: 10px;
+        }
+
+        .aa {
+            width: 320px;
+            height: 410px;
+        }
+
+        .nav {
+            float: left;
+            width: 15px;
+            height: 15px;
+            margin-top: 5px;
+            margin-left: 12px;
+            border: 1.5px solid #000;
+            border-color: #000 transparent transparent #000;
+            transform: rotate(-45deg);
+        }
+
+        .header {
+            width: 350px;
+            height: 12px;
+            margin: 10px;
+            padding-top: 0px;
+            /*background-color: #fff;*/
+        }
+
+        /*
+        .box1 {
+            width: 40px;
+            height: 40px;
+            background-color: blue;
+        } */
+
+        .box3 {
+            float: left;
+            width: 30px;
+            height: 30px;
+            margin-left: 12px;
+        }
+
+        .x {
+            width: 13px;
+            height: 13px;
+            border: 1.5px solid #000;
+            border-color: #000 #000 transparent transparent;
+            transform: rotate(45deg);
+            margin-top: 5px;
+            margin-left: 7px;
+        }
+
+        .box4 {
+            float: left;
+            width: 30px;
+            height: 30px;
+        }
+
+        .xx {
+            width: 13px;
+            height: 13px;
+            border: 1.5px solid #000;
+            border-color: transparent transparent#000 #000;
+            transform: rotate(45deg);
+            margin-top: 5px;
+            margin-left: -2px;
+        }
+
+        .out {
+            float: left;
+            margin-left: 20px;
+            margin-top: 3px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="header">
+    <!--        <div class="nav"></div>-->
+    <!--        <div class="box3">-->
+    <!--            <div class="x"></div>-->
+    <!--        </div>-->
+    <!--        <div class="box4">-->
+    <!--            <div class="xx"></div>-->
+    <!--        </div>-->
+    <!--        <p class="out">离校二维码</p>-->
+    <!--        &lt;!&ndash;  <div class="nav"></div>-->
+    <!--        <div class="x">-->
+    <!--            <div class="xx"></div>-->
+    <!--            <div class="xxx"></div>-->
+    <!--        </div>-->
+    <!--        <span>离校二维码</span> &ndash;&gt;-->
+</div>
+<div class="time">
+    <div class="gz">广州城市理工学院出入审</div>
+    <div class="p">批凭证</div>
+    <ul>
+        <li>
+            <p>林景行</p>
+            <p>201910096816</p>
+            <p>管理学院</p>
+            <p>单据审批状态:</p>
+            <h3 class="gre">同意</h3>
+        </li>
+        <li>
+            <p>离校时间：</p>
+            
+            <h3 class="time-left">2022-3-3</h3>
+
+            <div class="box">
+                
+                <img src="per.jpg" alt="">
+            </div>
+        </li>
+    </ul>
+    <span>离校</span>
+    <h3 class="timer">2022-3-3 22:30:56</h3>
+</div>
+<div class="but"> Copyright(C)2021 广州城市理工学院网络与信息中心版权所有</div>
+<script>
+    window.onload = function () {
+        var timer = document.querySelector(".timer");
+        setInterval(function () {
+            var time = new Date(); // 程序计时的月从0开始取值后+1
+            var timetwo = document.querySelector('.time-left');
+
+            var m = time.getMonth() + 1;
+            var hour = time.getHours();
+            hour = hour < 10 ? '0' + hour : hour;
+            var min = time.getMinutes();
+            min = min < 10 ? '0' + min : min;
+            var sec = time.getSeconds();
+            sec = sec < 10 ? '0' + sec : sec;
+            var t2 = time.getFullYear() + "-" + m + "-" +
+                time.getDate();
+
+            var t = time.getFullYear() + "-" + m + "-" +
+                time.getDate() + " " + hour + ":" +
+                min + ":" + sec;
+            timer.innerHTML = t;
+            timetwo.innerHTML = t2;
+        }, 1000);
+    };
+</script>
+
+
+
+</body></html>
